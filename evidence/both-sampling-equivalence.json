@@ -1,0 +1,12 @@
+{
+  "grnade": {
+    "count": 10,
+    "identical_ordered_sequences_to_previous_single_model_run": true,
+    "reference_run": "twort-smoke"
+  },
+  "struct2seq": {
+    "count": 10,
+    "identical_ordered_sequences_to_previous_single_model_run": true,
+    "reference_run": "struct2seq-feasibility/twort-282"
+  }
+}

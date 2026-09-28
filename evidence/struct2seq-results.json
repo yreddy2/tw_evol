@@ -1,0 +1,261 @@
+{
+  "limits": "Small feasibility probes, not a model leaderboard. Struct2SeQ has RNet training coupling and distinct native sampling controls. TW-019 remains deferred.",
+  "matched_fields": [
+    "construct",
+    "target",
+    "reference_fold",
+    "evaluation settings",
+    "scorer code",
+    "scorer checkpoints",
+    "scorer package versions",
+    "device",
+    "threads",
+    "returned quota",
+    "batch size",
+    "master seed"
+  ],
+  "matched_twort_evaluator_audit": "passed",
+  "runs": [
+    {
+      "candidate_distance_and_provenance_audit": "passed for every candidate and proposal",
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distributions": {
+        "pair_f1": {
+          "max": 0.9230769230769231,
+          "median": 0.7272727272727273,
+          "min": 0.0
+        },
+        "predicted_openknot_score": {
+          "max": 45.833333333333336,
+          "median": 40.27777777777778,
+          "min": 33.333333333333336
+        },
+        "sequence_levenshtein_to_input": {
+          "max": 28,
+          "median": 24.0,
+          "min": 20
+        }
+      },
+      "elapsed_seconds": 6.360435000155121,
+      "immutable_sha256": "ac3f24e418b960fb8846bc646902ec1de93b0f83b725b742d91a4de6abb1a895",
+      "length": 36,
+      "peak_rss_bytes": 535871488,
+      "run": "struct2seq-hairpin",
+      "status": "completed"
+    },
+    {
+      "candidate_distance_and_provenance_audit": "passed for every candidate and proposal",
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distributions": {
+        "pair_f1": {
+          "max": 1.0,
+          "median": 1.0,
+          "min": 0.0
+        },
+        "predicted_openknot_score": {
+          "max": 50.0,
+          "median": 46.875,
+          "min": 18.75
+        },
+        "sequence_levenshtein_to_input": {
+          "max": 6,
+          "median": 5.5,
+          "min": 4
+        }
+      },
+      "elapsed_seconds": 3.498101791832596,
+      "immutable_sha256": "888bc4ad4c5d2a202d4151dbd17a4276643c0401e29cbb4744f901af008ec044",
+      "length": 8,
+      "peak_rss_bytes": 499023872,
+      "run": "struct2seq-feasibility/lower-bound-8",
+      "status": "completed"
+    },
+    {
+      "candidate_distance_and_provenance_audit": "passed for every candidate and proposal",
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distributions": {
+        "pair_f1": {
+          "max": 0.9767441860465116,
+          "median": 0.7124505928853755,
+          "min": 0.2978723404255319
+        },
+        "predicted_openknot_score": {
+          "max": 46.71052631578947,
+          "median": 44.078947368421055,
+          "min": 40.13157894736842
+        },
+        "sequence_levenshtein_to_input": {
+          "max": 44,
+          "median": 41.5,
+          "min": 39
+        }
+      },
+      "elapsed_seconds": 10.175567250000313,
+      "immutable_sha256": "a8be246b25090f0f53e51ac96cc19ecf4ece8d1959d0b3774329a3f296cc2deb",
+      "length": 76,
+      "peak_rss_bytes": 515719168,
+      "run": "struct2seq-feasibility/trna-76",
+      "status": "completed"
+    },
+    {
+      "candidate_distance_and_provenance_audit": "passed for every candidate and proposal",
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distributions": {
+        "pair_f1": {
+          "max": 0.7843137254901961,
+          "median": 0.5275043427909669,
+          "min": 0.2909090909090909
+        },
+        "predicted_openknot_score": {
+          "max": 44.50354609929078,
+          "median": 42.73049645390071,
+          "min": 39.53900709219858
+        },
+        "sequence_levenshtein_to_input": {
+          "max": 159,
+          "median": 152.0,
+          "min": 143
+        }
+      },
+      "elapsed_seconds": 112.18485233304091,
+      "immutable_sha256": "bc3df150a3260e3dbf59c98dad2332517fbad519b57a496da46941f775f0d8f9",
+      "length": 282,
+      "peak_rss_bytes": 1014595584,
+      "run": "struct2seq-feasibility/twort-282",
+      "status": "completed"
+    },
+    {
+      "candidate_distance_and_provenance_audit": "passed for every candidate and proposal",
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distributions": {
+        "pair_f1": {
+          "max": 0.8920454545454546,
+          "median": 0.8587541528239202,
+          "min": 0.7803468208092486
+        },
+        "predicted_openknot_score": {
+          "max": 46.6,
+          "median": 45.0,
+          "min": 43.6
+        },
+        "sequence_levenshtein_to_input": {
+          "max": 264,
+          "median": 253.0,
+          "min": 250
+        }
+      },
+      "elapsed_seconds": 361.9635624589864,
+      "immutable_sha256": "97e9a953906613fed4a69566e1391e90e3ba4cd9381054ede2d14309827229bf",
+      "length": 500,
+      "peak_rss_bytes": 2118287360,
+      "run": "struct2seq-feasibility/upper-bound-500",
+      "status": "completed"
+    },
+    {
+      "candidate_distance_and_provenance_audit": "passed for every candidate and proposal",
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 2,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distributions": {
+        "pair_f1": {
+          "max": 0.9333333333333333,
+          "median": 0.8472222222222222,
+          "min": 0.5454545454545454
+        },
+        "predicted_openknot_score": {
+          "max": 48.026315789473685,
+          "median": 45.39473684210526,
+          "min": 40.78947368421053
+        },
+        "sequence_levenshtein_to_input": {
+          "max": 48,
+          "median": 44.0,
+          "min": 42
+        }
+      },
+      "elapsed_seconds": 23.466246124822646,
+      "immutable_sha256": "cd2e19674f374a00e43460598c4e91bc58e7a20b094237b6ae9f6991f5ffd479",
+      "length": 76,
+      "peak_rss_bytes": 548503552,
+      "run": "struct2seq-recovery-real",
+      "status": "completed"
+    }
+  ],
+  "verified_at": "2026-09-22T19:08:36.383913+00:00"
+}

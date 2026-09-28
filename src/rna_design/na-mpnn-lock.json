@@ -1,0 +1,25 @@
+{
+  "generator": "na_mpnn",
+  "variant": "design_model/s_19137",
+  "mode": "fixed_backbone",
+  "source": {
+    "url": "https://github.com/baker-laboratory/NA-MPNN.git",
+    "revision": "9fabc2482092b725e067969fba21297a806b6fda",
+    "license": "MIT with embedded BSD-3-Clause notices; see upstream LICENSE and source headers"
+  },
+  "checkpoint": {
+    "file": "na_mpnn/s_19137.pt",
+    "source_file": "models/design_model/s_19137.pt",
+    "sha256": "5fb12951a0ad3ee44b91f33b7dd19114e755b49eb577d9eb1be71b24b7e49e4c",
+    "bytes": 27667482
+  },
+  "supported_length": [8, 500],
+  "tested_lengths": [],
+  "devices": ["cpu", "cuda"],
+  "sampler": "inference.model_utils.ProteinMPNN.sample(model_type=na_mpnn)",
+  "inputs": "One canonical RNA chain, exact sequence mapping, observed backbone coordinates; explicit optional phosphate atom masking",
+  "sampling_temperature": 0.1,
+  "reference_bias": null,
+  "secondary_target_conditioning": false,
+  "implementation_scope": "Official NA-MPNN design checkpoint; not a reproduction of the paper's exact MPNN-fixbb search variant"
+}

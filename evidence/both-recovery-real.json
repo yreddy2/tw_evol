@@ -1,0 +1,60 @@
+{
+  "model": "both",
+  "interrupted_exit": 130,
+  "resumed_exit": 0,
+  "preserved_artifacts": {
+    "target.json": "de994e16b92c7e37793bc1f2ccf1cca26cf521274a7d15003fc59c29f83f0b56",
+    "batches/000000.json": "b413b50d0ea78de0f0f21b58903ef26aa22fdc1bfc7b77991543fc393d527de5",
+    "batches/000001.json": "0c1fcce0a12df3a16c2c98d49f1317b626dbe5d0de631b8771509d51df74f60a",
+    "batches/000002.json": "3729b67d07035bf1abb42ec478debda789165147edf6948adbe1dc487eeea0c6",
+    "batches/000003.json": "fac9b38c40fa3ebffd2f363684fa211aaddd2f87c5c5ebcefc9ea9d9b390ef88",
+    "evaluations/db8be790fb6abb7e3f7bd032ceb930c46dce12c39d234fd005dabb8e458df93f/stages/41aed35dc8a27dbfe8416b5a8cac8448a6553e0dfde88b56393fce104bdae0a5/vienna.json": "7ac024479fd8d83f37f93b85fc5b15600ed2249958d0710617efb5fe8f3e98fe",
+    "evaluations/db8be790fb6abb7e3f7bd032ceb930c46dce12c39d234fd005dabb8e458df93f/stages/41aed35dc8a27dbfe8416b5a8cac8448a6553e0dfde88b56393fce104bdae0a5/rnet.json": "a63dfe7e16b2d811aedc34be93090c171bf93905fc55215841ce8ad80b804fa9"
+  },
+  "final_counts": {
+    "attempted": 20,
+    "constraint_passing": 20,
+    "cross_model_overlap": 0,
+    "duplicate": 0,
+    "eligible": 20,
+    "generation_invocations": 4,
+    "invalid": 0,
+    "per_model": {
+      "grnade": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 2,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "struct2seq": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 2,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      }
+    },
+    "reference_copies": 0,
+    "requested": 20,
+    "returned": 20,
+    "scored": 20,
+    "selected": 20,
+    "unique_generated": 20
+  },
+  "target_id": "8ba40201cc45703acc243002c1b9284c822fc27a91522aa091a14f8e18d97e00"
+}

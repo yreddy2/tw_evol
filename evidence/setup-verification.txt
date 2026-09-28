@@ -1,0 +1,11 @@
+Using Python 3.11.16 environment at: .runtime/venv
+Resolved 10 packages in 145ms
+Uninstalled 1 package in 1.11s
+Installed 1 package in 215ms
+ ~ torch==2.1.2
+Using Python 3.11.16 environment at: .runtime/venv
+Checked 11 packages in 28ms
+Using Python 3.11.16 environment at: .runtime/venv
+Checked 3 packages in 3ms
+Using Python 3.11.16 environment at: .runtime/venv
+Ready for verification: rna-design doctor --runtime-root /Users/yadureddy/Documents/tw_evol/.runtime

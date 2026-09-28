@@ -1,0 +1,28 @@
+Generating grnade batch 1: 5 proposals
+Generating grnade batch 2: 5 proposals
+Generating struct2seq batch 3: 5 proposals
+Generating struct2seq batch 4: 5 proposals
+Evaluating 1/21 reference
+Interrupted; resume the run to reuse committed work.
+Evaluating 1/21 reference
+Evaluating 2/21 2049ced2105c
+Evaluating 3/21 2d6860823557
+Evaluating 4/21 33f82a70c13d
+Evaluating 5/21 34463a5d8bb5
+Evaluating 6/21 41dc4c9129a5
+Evaluating 7/21 4e6287ad8aa0
+Evaluating 8/21 5e4dc4d77ed9
+Evaluating 9/21 66b04dacdabf
+Evaluating 10/21 6cd0e88921e1
+Evaluating 11/21 7492b32b3f00
+Evaluating 12/21 8942ce997b79
+Evaluating 13/21 a5d33f1b6fef
+Evaluating 14/21 ab3d386d7895
+Evaluating 15/21 bea74a608c00
+Evaluating 16/21 c031bbb0cc69
+Evaluating 17/21 c34841f4b50a
+Evaluating 18/21 e67469c21fdb
+Evaluating 19/21 e9ff50cd5573
+Evaluating 20/21 f29e5744d365
+Evaluating 21/21 fc7e1191700e
+{"counts": {"attempted": 20, "constraint_passing": 20, "cross_model_overlap": 0, "duplicate": 0, "eligible": 20, "generation_invocations": 4, "invalid": 0, "per_model": {"grnade": {"attempted": 10, "constraint_passing": 10, "duplicate": 0, "eligible": 10, "generation_invocations": 2, "invalid": 0, "reference_copies": 0, "requested": 10, "returned": 10, "scored": 10, "selected": 10, "unique_generated": 10}, "struct2seq": {"attempted": 10, "constraint_passing": 10, "duplicate": 0, "eligible": 10, "generation_invocations": 2, "invalid": 0, "reference_copies": 0, "requested": 10, "returned": 10, "scored": 10, "selected": 10, "unique_generated": 10}}, "reference_copies": 0, "requested": 20, "returned": 20, "scored": 20, "selected": 20, "unique_generated": 20}, "elapsed_seconds": 22.08163229096681, "error": null, "peak_rss_bytes": 525189120, "ranked_csv": "/Users/yadureddy/Documents/tw_evol/runs/both-recovery-real/exports/ranked.csv", "report": "/Users/yadureddy/Documents/tw_evol/runs/both-recovery-real/exports/report.md", "run": "/Users/yadureddy/Documents/tw_evol/runs/both-recovery-real", "status": "completed"}

@@ -1,0 +1,16 @@
+Processing /Users/yadureddy/Documents/tw_evol
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: rna-design-cli
+  Building wheel for rna-design-cli (pyproject.toml): started
+  Building wheel for rna-design-cli (pyproject.toml): finished with status 'done'
+  Created wheel for rna-design-cli: filename=rna_design_cli-0.1.0-py3-none-any.whl size=30979 sha256=def7448251b140b7f408f8123ecd683332d7fdfc8435292ff98dd245e6b191a7
+  Stored in directory: /private/var/folders/kt/6bw2btpd12764tn13nz1vldw0000gn/T/pip-ephem-wheel-cache-14rluhap/wheels/42/92/55/3a27b654d61dd8adfd5e7c8575253cfb425f7ab08c59733d15
+Successfully built rna-design-cli
+
+[notice] A new release of pip is available: 25.2 -> 26.2.1
+[notice] To update, run: /Users/yadureddy/Documents/tw_evol/.venv/bin/python3.13 -m pip install --upgrade pip

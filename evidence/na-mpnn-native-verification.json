@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "feature_equality": {
+    "R_idx": true,
+    "R_idx_original": true,
+    "chain_labels": true,
+    "S": true,
+    "chain_mask": true,
+    "mask": true,
+    "protein_mask": true,
+    "dna_mask": true,
+    "rna_mask": true,
+    "rna_mask_for_token_conversion": true,
+    "R_polymer_type": true,
+    "X": true,
+    "X_m": true,
+    "xyz_65": true,
+    "xyz_65_m": true
+  },
+  "canonical_rna": true,
+  "same_seed_repeat_identical": true,
+  "different_seed_changes_output": true,
+  "design_length": 229,
+  "missing_atom_policy": "mask_phosphate",
+  "full_redesign_mask": true,
+  "checkpoint_sha256": "5fb12951a0ad3ee44b91f33b7dd19114e755b49eb577d9eb1be71b24b7e49e4c",
+  "worker_sha256": "b5f8ec852daf489a53ba3b7ee78850cf7c49348c8af9a13673dc1204a363fb23",
+  "runtime": {
+    "imports": "ok",
+    "device": "cpu",
+    "packages": {
+      "torch": "2.5.1",
+      "numpy": "2.3.3",
+      "prody": "2.6.1",
+      "biopython": "1.86"
+    }
+  },
+  "seconds": 1.970774333924055
+}

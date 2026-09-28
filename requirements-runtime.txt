@@ -1,0 +1,13 @@
+# Direct research dependencies; PyTorch/PyG extension wheels installed by setup_runtime.py.
+# Full platform-specific resolved installation is captured in .runtime/installed-requirements.txt.
+numpy==1.26.4
+torch-geometric==2.6.1
+scipy==1.15.3
+pandas==2.2.3
+biotite==1.5.0
+cpdb-protein==0.2.0
+wandb==0.30.0
+biopython==1.88
+PyYAML==6.0.3
+einops==0.8.2
+arnie==0.2.7

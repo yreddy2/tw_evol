@@ -1,0 +1,25 @@
+schema_version: 1
+input:
+  sequence: ../twort_seq.txt
+  reconstruction:
+    design_sequence: twort-1y0q-A.fasta
+    mapping: twort-reconstruction.json
+  backbone:
+    path: backbones/1Y0Q.pdb
+    chain: A
+    mapping: exact_sequence
+    missing_atoms: mask_phosphate
+model:
+  name: all
+budget:
+  proposals: 10
+  attempt_cap: 20
+  batch_size: 5
+  seed: 42
+  wall_time_seconds: 3600
+runtime:
+  root: ../.runtime
+  device: cpu
+  threads: 2
+selection:
+  top_k: 30

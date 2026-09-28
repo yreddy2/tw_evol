@@ -1,0 +1,16 @@
+Generating batch 1: 5 proposals
+Generating batch 2: 5 proposals
+Evaluating 1/11 reference
+Interrupted; resume the run to reuse committed work.
+Evaluating 1/11 reference
+Evaluating 2/11 2049ced2105c
+Evaluating 3/11 5e4dc4d77ed9
+Evaluating 4/11 66b04dacdabf
+Evaluating 5/11 8942ce997b79
+Evaluating 6/11 a5d33f1b6fef
+Evaluating 7/11 ab3d386d7895
+Evaluating 8/11 bea74a608c00
+Evaluating 9/11 c031bbb0cc69
+Evaluating 10/11 c34841f4b50a
+Evaluating 11/11 e67469c21fdb
+{"counts": {"attempted": 10, "constraint_passing": 10, "duplicate": 0, "eligible": 10, "generation_invocations": 2, "invalid": 0, "reference_copies": 0, "requested": 10, "returned": 10, "scored": 10, "selected": 10, "unique_generated": 10}, "elapsed_seconds": 23.466246124822646, "error": null, "peak_rss_bytes": 548503552, "report": "/Users/yadureddy/Documents/tw_evol/runs/struct2seq-recovery-real/exports/report.md", "run": "/Users/yadureddy/Documents/tw_evol/runs/struct2seq-recovery-real", "status": "completed"}

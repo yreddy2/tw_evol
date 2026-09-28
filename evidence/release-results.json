@@ -1,0 +1,441 @@
+{
+  "runs": [
+    {
+      "counts": {
+        "attempted": 1000,
+        "constraint_passing": 1000,
+        "duplicate": 0,
+        "eligible": 1000,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 1000,
+        "returned": 1000,
+        "scored": 1000,
+        "selected": 100,
+        "unique_generated": 1000
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 1000,
+          "max": 26,
+          "median": 10.0,
+          "min": 0
+        },
+        "pair_f1": {
+          "count": 1000,
+          "max": 0.9230769230769231,
+          "median": 0.7272727272727273,
+          "min": 0.0
+        },
+        "predicted_openknot_score": {
+          "count": 1000,
+          "max": 50.0,
+          "median": 40.27777777777778,
+          "min": 27.77777777777778
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 1000,
+          "max": 28,
+          "median": 20.0,
+          "min": 10
+        }
+      },
+      "elapsed_seconds": 302.2141680419445,
+      "length": 36,
+      "peak_rss_bytes": 443269120,
+      "pseudoknotted": false,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 0.0,
+        "predicted_openknot_score": 48.611111111111114,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "release-1000",
+      "status": "completed",
+      "target_source": "reference_mfe"
+    },
+    {
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 10,
+          "max": 106,
+          "median": 91.0,
+          "min": 55
+        },
+        "pair_f1": {
+          "count": 10,
+          "max": 0.6075949367088608,
+          "median": 0.44095238095238093,
+          "min": 0.36477987421383645
+        },
+        "predicted_openknot_score": {
+          "count": 10,
+          "max": 44.50354609929078,
+          "median": 41.666666666666664,
+          "min": 38.652482269503544
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 10,
+          "max": 160,
+          "median": 152.0,
+          "min": 148
+        }
+      },
+      "elapsed_seconds": 93.53986270888709,
+      "length": 282,
+      "peak_rss_bytes": 1135706112,
+      "pseudoknotted": false,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 0.6447368421052632,
+        "predicted_openknot_score": 43.262411347517734,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "twort-smoke",
+      "status": "completed",
+      "target_source": "reference_mfe"
+    },
+    {
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 10,
+          "max": 0,
+          "median": 0.0,
+          "min": 0
+        },
+        "pair_f1": {
+          "count": 10,
+          "max": 1.0,
+          "median": 1.0,
+          "min": 1.0
+        },
+        "predicted_openknot_score": {
+          "count": 10,
+          "max": 50.0,
+          "median": 43.75,
+          "min": 12.5
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 10,
+          "max": 6,
+          "median": 5.0,
+          "min": 3
+        }
+      },
+      "elapsed_seconds": 3.9417610419914126,
+      "length": 8,
+      "peak_rss_bytes": 550797312,
+      "pseudoknotted": false,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 1.0,
+        "predicted_openknot_score": 50.0,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "feasibility/lower-bound-8",
+      "status": "completed",
+      "target_source": "reference_mfe"
+    },
+    {
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 10,
+          "max": 34,
+          "median": 8.5,
+          "min": 2
+        },
+        "pair_f1": {
+          "count": 10,
+          "max": 0.975609756097561,
+          "median": 0.926829268292683,
+          "min": 0.47619047619047616
+        },
+        "predicted_openknot_score": {
+          "count": 10,
+          "max": 49.3421052631579,
+          "median": 46.05263157894737,
+          "min": 42.10526315789474
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 10,
+          "max": 38,
+          "median": 32.5,
+          "min": 25
+        }
+      },
+      "elapsed_seconds": 9.124856417067349,
+      "length": 76,
+      "peak_rss_bytes": 649068544,
+      "pseudoknotted": false,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 0.9767441860465116,
+        "predicted_openknot_score": 47.36842105263158,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "feasibility/trna-76",
+      "status": "completed",
+      "target_source": "reference_mfe"
+    },
+    {
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 10,
+          "max": 182,
+          "median": 112.0,
+          "min": 90
+        },
+        "pair_f1": {
+          "count": 10,
+          "max": 0.7747747747747747,
+          "median": 0.669806512505899,
+          "min": 0.535483870967742
+        },
+        "predicted_openknot_score": {
+          "count": 10,
+          "max": 45.0,
+          "median": 44.5,
+          "min": 42.9
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 10,
+          "max": 260,
+          "median": 254.5,
+          "min": 248
+        }
+      },
+      "elapsed_seconds": 302.80643183295615,
+      "length": 500,
+      "peak_rss_bytes": 2234679296,
+      "pseudoknotted": false,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 0.0,
+        "predicted_openknot_score": 44.4,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "feasibility/upper-bound-500",
+      "status": "completed",
+      "target_source": "reference_mfe"
+    },
+    {
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 10,
+          "max": 24,
+          "median": 18.0,
+          "min": 12
+        },
+        "pair_f1": {
+          "count": 10,
+          "max": 0.6666666666666666,
+          "median": 0.0,
+          "min": 0.0
+        },
+        "predicted_openknot_score": {
+          "count": 10,
+          "max": 89.58333333333334,
+          "median": 73.26388888888889,
+          "min": 45.833333333333336
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 10,
+          "max": 25,
+          "median": 21.0,
+          "min": 17
+        }
+      },
+      "elapsed_seconds": 8.385879625100642,
+      "length": 36,
+      "peak_rss_bytes": 532807680,
+      "pseudoknotted": true,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 0.0,
+        "predicted_openknot_score": 57.638888888888886,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "pseudoknot-smoke",
+      "status": "completed",
+      "target_source": "provided"
+    },
+    {
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 0,
+        "duplicate": 0,
+        "eligible": 0,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 0,
+        "selected": 0,
+        "unique_generated": 10
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 10,
+          "max": 17,
+          "median": 10.0,
+          "min": 8
+        },
+        "pair_f1": {
+          "count": 0
+        },
+        "predicted_openknot_score": {
+          "count": 0
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 10,
+          "max": 23,
+          "median": 18.5,
+          "min": 16
+        }
+      },
+      "elapsed_seconds": 6.641235999995843,
+      "length": 36,
+      "peak_rss_bytes": 549552128,
+      "pseudoknotted": false,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 0.0,
+        "predicted_openknot_score": 48.611111111111114,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "filtered-smoke",
+      "status": "completed_no_candidates",
+      "target_source": "reference_mfe"
+    },
+    {
+      "counts": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 10,
+        "unique_generated": 10
+      },
+      "distance_audit": "all candidate and reference records passed",
+      "distributions": {
+        "mfe_structure_levenshtein_to_input": {
+          "count": 10,
+          "max": 31,
+          "median": 22.5,
+          "min": 4
+        },
+        "pair_f1": {
+          "count": 10,
+          "max": 0.8936170212765957,
+          "median": 0.696969696969697,
+          "min": 0.358974358974359
+        },
+        "predicted_openknot_score": {
+          "count": 10,
+          "max": 49.3421052631579,
+          "median": 44.40789473684211,
+          "min": 40.13157894736842
+        },
+        "sequence_levenshtein_to_input": {
+          "count": 10,
+          "max": 40,
+          "median": 34.5,
+          "min": 29
+        }
+      },
+      "elapsed_seconds": 16.99317945819348,
+      "length": 76,
+      "peak_rss_bytes": 557367296,
+      "pseudoknotted": false,
+      "reference": {
+        "mfe_structure_levenshtein_to_input": 0,
+        "pair_f1": 0.9767441860465116,
+        "predicted_openknot_score": 47.36842105263158,
+        "sequence_levenshtein_to_input": 0
+      },
+      "run": "recovery-real",
+      "status": "completed",
+      "target_source": "reference_mfe"
+    }
+  ],
+  "verified_at": "2026-09-22T18:15:04.188952+00:00"
+}

@@ -1,0 +1,2 @@
+# Preserve the original bytes and fixed-width records of scientific structure fixtures.
+*.pdb -text -whitespace

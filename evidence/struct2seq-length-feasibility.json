@@ -1,0 +1,94 @@
+[
+  {
+    "counts": {
+      "attempted": 10,
+      "constraint_passing": 10,
+      "duplicate": 0,
+      "eligible": 10,
+      "generation_invocations": 1,
+      "invalid": 0,
+      "reference_copies": 0,
+      "requested": 10,
+      "returned": 10,
+      "scored": 10,
+      "selected": 10,
+      "unique_generated": 10
+    },
+    "elapsed_seconds": 3.498101791832596,
+    "error": null,
+    "length": 8,
+    "name": "lower-bound-8",
+    "peak_rss_bytes": 499023872,
+    "run": "/Users/yadureddy/Documents/tw_evol/runs/struct2seq-feasibility/lower-bound-8",
+    "status": "completed"
+  },
+  {
+    "counts": {
+      "attempted": 10,
+      "constraint_passing": 10,
+      "duplicate": 0,
+      "eligible": 10,
+      "generation_invocations": 1,
+      "invalid": 0,
+      "reference_copies": 0,
+      "requested": 10,
+      "returned": 10,
+      "scored": 10,
+      "selected": 10,
+      "unique_generated": 10
+    },
+    "elapsed_seconds": 10.175567250000313,
+    "error": null,
+    "length": 76,
+    "name": "trna-76",
+    "peak_rss_bytes": 515719168,
+    "run": "/Users/yadureddy/Documents/tw_evol/runs/struct2seq-feasibility/trna-76",
+    "status": "completed"
+  },
+  {
+    "counts": {
+      "attempted": 10,
+      "constraint_passing": 10,
+      "duplicate": 0,
+      "eligible": 10,
+      "generation_invocations": 1,
+      "invalid": 0,
+      "reference_copies": 0,
+      "requested": 10,
+      "returned": 10,
+      "scored": 10,
+      "selected": 10,
+      "unique_generated": 10
+    },
+    "elapsed_seconds": 112.18485233304091,
+    "error": null,
+    "length": 282,
+    "name": "twort-282",
+    "peak_rss_bytes": 1014595584,
+    "run": "/Users/yadureddy/Documents/tw_evol/runs/struct2seq-feasibility/twort-282",
+    "status": "completed"
+  },
+  {
+    "counts": {
+      "attempted": 10,
+      "constraint_passing": 10,
+      "duplicate": 0,
+      "eligible": 10,
+      "generation_invocations": 1,
+      "invalid": 0,
+      "reference_copies": 0,
+      "requested": 10,
+      "returned": 10,
+      "scored": 10,
+      "selected": 10,
+      "unique_generated": 10
+    },
+    "elapsed_seconds": 361.9635624589864,
+    "error": null,
+    "length": 500,
+    "name": "upper-bound-500",
+    "peak_rss_bytes": 2118287360,
+    "run": "/Users/yadureddy/Documents/tw_evol/runs/struct2seq-feasibility/upper-bound-500",
+    "status": "completed"
+  }
+]

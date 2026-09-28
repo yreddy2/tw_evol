@@ -1,0 +1,21 @@
+.venv/
+.runtime/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+runs/
+.DS_Store
+
+# Original local context; the maintained CLI includes its own required example fixture.
+/RNA-Inverse-Folding-Workbench/
+/Twort Evolution.pdf
+/de_novo_design_paper.pdf
+
+# Local credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example

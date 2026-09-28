@@ -1,0 +1,27 @@
+{
+  "model": "struct2seq",
+  "interrupted_exit": 130,
+  "resumed_exit": 0,
+  "preserved_artifacts": {
+    "target.json": "de994e16b92c7e37793bc1f2ccf1cca26cf521274a7d15003fc59c29f83f0b56",
+    "batches/000000.json": "ae6dcc3bd11df4eebe12b0aa7ce208b0ebd5a91e3cc5f459daa8db2bbf6b6c3a",
+    "batches/000001.json": "351c1bd892fbf4871925982f2ab6792cb3c41db0681dcef48b336b2d2656dba4",
+    "evaluations/db8be790fb6abb7e3f7bd032ceb930c46dce12c39d234fd005dabb8e458df93f/stages/41aed35dc8a27dbfe8416b5a8cac8448a6553e0dfde88b56393fce104bdae0a5/vienna.json": "e25f4537e9c58b69862b65d321cf0098d6c175ef554b18155c946fab1f2d268c",
+    "evaluations/db8be790fb6abb7e3f7bd032ceb930c46dce12c39d234fd005dabb8e458df93f/stages/41aed35dc8a27dbfe8416b5a8cac8448a6553e0dfde88b56393fce104bdae0a5/rnet.json": "3d0e14655974fba0d4a0321051eb25194833da8a488eac187270e95fb5e82208"
+  },
+  "final_counts": {
+    "attempted": 10,
+    "constraint_passing": 10,
+    "duplicate": 0,
+    "eligible": 10,
+    "generation_invocations": 2,
+    "invalid": 0,
+    "reference_copies": 0,
+    "requested": 10,
+    "returned": 10,
+    "scored": 10,
+    "selected": 10,
+    "unique_generated": 10
+  },
+  "target_id": "8ba40201cc45703acc243002c1b9284c822fc27a91522aa091a14f8e18d97e00"
+}

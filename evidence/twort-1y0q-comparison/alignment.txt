@@ -1,0 +1,22 @@
+Global sequence alignment for inspection; not an approved biological mapping.
+Match=2 mismatch=-3 gap_open=-6 gap_extend=-0.5
+Optimal alignments=4
+target            0 AACUACUGAAAGCAUAAAUAAUUGUGCCUUUAUACAGUAAUGUAUAUCGAAAAAUCCUCU
+                  0 -----------------------|.|||||||||||||||||||||||||||||||||||
+query             0 -----------------------GAGCCUUUAUACAGUAAUGUAUAUCGAAAAAUCCUCU
+
+target           60 AAUUCAGGGAACACCUAAACAAACUAAGAUGUAGGCAAUCCUGAGCUAAGCUCUUAGUAA
+                 60 |||||||||||||||||---------------||||||||||||||||||||||||||||
+query            37 AAUUCAGGGAACACCUA---------------AGGCAAUCCUGAGCUAAGCUCUUAGUAA
+
+target          120 UAAGAGAAAGUGCAACGACUAUUCCGAUAGGAAGUAGGGUCAAGUGACUCGAAAUGGGGA
+                120 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query            82 UAAGAGAAAGUGCAACGACUAUUCCGAUAGGAAGUAGGGUCAAGUGACUCGAAAUGGGGA
+
+target          180 UUACCCUUCUAGGGUAGUGAUAUAGUCUGAACAUAUAUGGAAACAUAUAGAAGGAUAGGA
+                180 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           142 UUACCCUUCUAGGGUAGUGAUAUAGUCUGAACAUAUAUGGAAACAUAUAGAAGGAUAGGA
+
+target          240 GUAACGAACCUAUUCGUAACAUAAUUGAACUUUUAGUUAUUU 282
+                240 |||||||||||||.|||||||||||||--------------- 282
+query           202 GUAACGAACCUAUCCGUAACAUAAUUG--------------- 229

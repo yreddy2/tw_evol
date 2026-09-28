@@ -1,0 +1,68 @@
+[
+  {
+    "counts": {
+      "attempted": 10,
+      "constraint_passing": 10,
+      "duplicate": 0,
+      "eligible": 10,
+      "invalid": 0,
+      "reference_copies": 0,
+      "requested": 10,
+      "returned": 10,
+      "scored": 10,
+      "selected": 10,
+      "unique_generated": 10
+    },
+    "elapsed_seconds": 3.9417610419914126,
+    "error": null,
+    "length": 8,
+    "name": "lower-bound-8",
+    "peak_rss_bytes": 550797312,
+    "run": "/Users/yadureddy/Documents/tw_evol/runs/feasibility/lower-bound-8",
+    "status": "completed"
+  },
+  {
+    "counts": {
+      "attempted": 10,
+      "constraint_passing": 10,
+      "duplicate": 0,
+      "eligible": 10,
+      "invalid": 0,
+      "reference_copies": 0,
+      "requested": 10,
+      "returned": 10,
+      "scored": 10,
+      "selected": 10,
+      "unique_generated": 10
+    },
+    "elapsed_seconds": 9.124856417067349,
+    "error": null,
+    "length": 76,
+    "name": "trna-76",
+    "peak_rss_bytes": 649068544,
+    "run": "/Users/yadureddy/Documents/tw_evol/runs/feasibility/trna-76",
+    "status": "completed"
+  },
+  {
+    "counts": {
+      "attempted": 10,
+      "constraint_passing": 10,
+      "duplicate": 0,
+      "eligible": 10,
+      "invalid": 0,
+      "reference_copies": 0,
+      "requested": 10,
+      "returned": 10,
+      "scored": 10,
+      "selected": 10,
+      "unique_generated": 10
+    },
+    "elapsed_seconds": 302.80643183295615,
+    "error": null,
+    "length": 500,
+    "name": "upper-bound-500",
+    "peak_rss_bytes": 2234679296,
+    "run": "/Users/yadureddy/Documents/tw_evol/runs/feasibility/upper-bound-500",
+    "status": "completed"
+  }
+]

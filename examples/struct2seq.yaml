@@ -1,0 +1,21 @@
+schema_version: 1
+input:
+  sequence: ../twort_seq.txt
+model:
+  name: struct2seq
+  mode: 2d
+  policy: full_redesign
+  checkpoint_variant: SHAPE
+  sampler: native_stochastic
+  sampling_probability: 1.0
+budget:
+  proposals: 10
+  attempt_cap: 20
+  batch_size: 10
+  seed: 42
+runtime:
+  root: ../.runtime
+  device: cpu
+  threads: 2
+selection:
+  top_k: 10

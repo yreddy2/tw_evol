@@ -1,0 +1,25 @@
+{
+  "interrupted_exit": 130,
+  "resumed_exit": 0,
+  "preserved_artifacts": {
+    "target.json": "de994e16b92c7e37793bc1f2ccf1cca26cf521274a7d15003fc59c29f83f0b56",
+    "batches/000000.json": "689d61e699d05f38433fc16efcb648c86a8aef4fcd38abbd7170d98e5e7467ac",
+    "batches/000001.json": "30eb87b26ecd65d9d12dc1ac43634fc4a7dc8122d87970604f211dee47924fca",
+    "evaluations/c78cc3b75695ccaec318581761db0990c8640b89a8931697a361e6256ec4535f/stages/41aed35dc8a27dbfe8416b5a8cac8448a6553e0dfde88b56393fce104bdae0a5/vienna.json": "eb3c5c6e6f55a452ebfe28b22b1b4aae2543a63281f73d30dfd60c3428a15949",
+    "evaluations/c78cc3b75695ccaec318581761db0990c8640b89a8931697a361e6256ec4535f/stages/41aed35dc8a27dbfe8416b5a8cac8448a6553e0dfde88b56393fce104bdae0a5/rnet.json": "2ebded472ee641dcd5c0668e73deecdf1643e972090672902b92cc01536fef8e"
+  },
+  "final_counts": {
+    "attempted": 10,
+    "constraint_passing": 10,
+    "duplicate": 0,
+    "eligible": 10,
+    "invalid": 0,
+    "reference_copies": 0,
+    "requested": 10,
+    "returned": 10,
+    "scored": 10,
+    "selected": 10,
+    "unique_generated": 10
+  },
+  "target_id": "8ba40201cc45703acc243002c1b9284c822fc27a91522aa091a14f8e18d97e00"
+}

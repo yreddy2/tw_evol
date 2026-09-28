@@ -1,0 +1,16 @@
+Generating batch 1: 5 proposals
+Generating batch 2: 5 proposals
+Evaluating 1/11 reference
+Interrupted; resume the run to reuse committed work.
+Evaluating 1/11 reference
+Evaluating 2/11 2d6860823557
+Evaluating 3/11 33f82a70c13d
+Evaluating 4/11 34463a5d8bb5
+Evaluating 5/11 41dc4c9129a5
+Evaluating 6/11 4e6287ad8aa0
+Evaluating 7/11 6cd0e88921e1
+Evaluating 8/11 7492b32b3f00
+Evaluating 9/11 e9ff50cd5573
+Evaluating 10/11 f29e5744d365
+Evaluating 11/11 fc7e1191700e
+{"counts": {"attempted": 10, "constraint_passing": 10, "duplicate": 0, "eligible": 10, "invalid": 0, "reference_copies": 0, "requested": 10, "returned": 10, "scored": 10, "selected": 10, "unique_generated": 10}, "elapsed_seconds": 16.99317945819348, "error": null, "peak_rss_bytes": 557367296, "report": "/Users/yadureddy/Documents/tw_evol/runs/recovery-real/exports/report.md", "run": "/Users/yadureddy/Documents/tw_evol/runs/recovery-real", "status": "completed"}

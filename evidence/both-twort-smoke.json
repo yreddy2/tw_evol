@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-09-22T19:21:27.347781+00:00",
+  "counts": {
+    "attempted": 20,
+    "constraint_passing": 20,
+    "cross_model_overlap": 0,
+    "duplicate": 0,
+    "eligible": 20,
+    "generation_invocations": 2,
+    "invalid": 0,
+    "per_model": {
+      "grnade": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 4,
+        "unique_generated": 10
+      },
+      "struct2seq": {
+        "attempted": 10,
+        "constraint_passing": 10,
+        "duplicate": 0,
+        "eligible": 10,
+        "generation_invocations": 1,
+        "invalid": 0,
+        "reference_copies": 0,
+        "requested": 10,
+        "returned": 10,
+        "scored": 10,
+        "selected": 6,
+        "unique_generated": 10
+      }
+    },
+    "reference_copies": 0,
+    "requested": 20,
+    "returned": 20,
+    "scored": 20,
+    "selected": 10,
+    "unique_generated": 20
+  },
+  "csv_sorted_and_provenance_checks": "passed",
+  "elapsed_seconds": 197.37349433405325,
+  "immutable_sha256": "f8f1a7200f0edd3ccb752fae5d13d0b2bd23fa47ed80ae5b081e0c41eb2a4011",
+  "peak_rss_bytes": 1028997120,
+  "ranked_csv": "/Users/yadureddy/Documents/tw_evol/runs/twort-both-smoke/exports/ranked.csv",
+  "ranked_rows": 20,
+  "run": "/Users/yadureddy/Documents/tw_evol/runs/twort-both-smoke",
+  "status": "completed",
+  "unique_evaluations_including_reference": 21
+}

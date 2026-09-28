@@ -1,0 +1,20 @@
+usage: rna-design [-h] [--version] [--json]
+                  {init,validate,run,models,doctor,status,resume,select,export}
+                  ...
+
+Local RNA design with gRNAde 2D
+
+positional arguments:
+  {init,validate,run,models,doctor,status,resume,select,export}
+    init                Write an editable experiment configuration
+    validate            Validate inputs without imports or downloads
+    run                 Generate, score, and export a bounded campaign
+    models              Inspect pinned model capabilities
+    doctor              Check source, weights, and isolated runtime
+    select              Create an immutable selection using saved scores
+    export              Export saved results without any model runtime
+
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  --json                Emit machine-readable JSON

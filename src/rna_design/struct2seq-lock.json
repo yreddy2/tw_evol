@@ -1,0 +1,32 @@
+{
+  "generator": "struct2seq",
+  "variant": "SHAPE",
+  "mode": "2d",
+  "source": {
+    "url": "https://github.com/Shujun-He/Struct2SeQ.git",
+    "revision": "381b7f6aa33e0ba64b436294de4cccbc721ffdcd",
+    "license": "MIT"
+  },
+  "checkpoint_repository": "https://www.kaggle.com/datasets/shujun717/struct2seq-weights",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/shujun717/struct2seq-weights?datasetVersionNumber=1",
+  "dataset_version": 1,
+  "checkpoint_license": "CC0-1.0 (author's Kaggle dataset metadata)",
+  "archive_sha256": "1853fde7716d31bd6d2c96abca14058b9c11de680253513a46a942e2c4fea7bd",
+  "checkpoint": {
+    "file": "struct2seq/Struct2SeQ_SHAPE.pt",
+    "archive_member": "Struct2SeQ_SHAPE.pt",
+    "sha256": "63f6bfd12d4d4f7ac5d81a3c31c3afb9dff533dbcd404064296836951b5294ed",
+    "bytes": 119736901
+  },
+  "supported_length": [8, 500],
+  "tested_lengths": [],
+  "devices": ["cpu", "cuda"],
+  "verified_device": "cpu",
+  "sampler": "Functions.generate_sequence_batched_sample",
+  "sampling_probability": 1.0,
+  "reference_bias": null,
+  "shape_input": false,
+  "search_rescue": false,
+  "native_constraints": "Unmodified upstream pair mask (AU/UA/CG/GC/GU), repeat mask and soft adenine-count heuristic; these are not exact composition guarantees.",
+  "scorer_coupling": "Struct2SeQ was trained/guided using RNet. This adapter uses RNet and RNet-SS only after generation; their scores are not independent validation."
+}

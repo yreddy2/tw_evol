@@ -1,0 +1,27 @@
+{
+  "ready": true,
+  "generator": {
+    "ok": true,
+    "result": {
+      "target_consumed": "........",
+      "target_pairs_consumed": [],
+      "mode": "native_stochastic",
+      "logit_bias": null,
+      "internal_search_effort": {
+        "sampled_sequences": 1,
+        "autoregressive_positions_per_sequence": 8,
+        "search_rounds": 0,
+        "rescue_proposals": 0,
+        "generation_scorer_calls": 0
+      },
+      "proposals": [
+        {
+          "sequence": "UUAGAGGA",
+          "native": {}
+        }
+      ]
+    },
+    "seconds": 1.9941685828380287,
+    "peak_rss_bytes": 495042560
+  }
+}

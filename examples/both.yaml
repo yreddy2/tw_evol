@@ -1,0 +1,27 @@
+schema_version: 1
+input:
+  sequence: ../twort_seq.txt
+model:
+  name: both
+  failure_policy: continue
+  grnade:
+    name: grnade
+    sampling_temperature: 0.8
+  struct2seq:
+    name: struct2seq
+    sampling_probability: 1.0
+budget:
+  # These quotas apply to EACH model: 20 returned proposals total.
+  proposals: 10
+  attempt_cap: 20
+  batch_size: 10
+  seed: 42
+  # One cumulative wall-time budget for the entire run.
+  wall_time_seconds: 86400
+runtime:
+  root: ../.runtime
+  device: cpu
+  threads: 2
+selection:
+  # Global shortlist from both models; ranked.csv retains all eligible candidates.
+  top_k: 10

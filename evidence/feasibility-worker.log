@@ -1,0 +1,4 @@
+/Users/yadureddy/Documents/tw_evol/.runtime/venv/lib/python3.11/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Loading RibonanzaNet checkpoint: /Users/yadureddy/Documents/tw_evol/.runtime/checkpoints/ribonanzanet/ribonanzanet.pt
+Loading RibonanzaNet SS checkpoint: /Users/yadureddy/Documents/tw_evol/.runtime/checkpoints/ribonanzanet_sec_struct/ribonanzanet_ss.pt
